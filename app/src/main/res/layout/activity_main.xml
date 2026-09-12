@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Income &amp; Expenditure" android:textSize="27sp" android:textStyle="bold" android:gravity="center" android:padding="12dp"/>
+<TextView android:id="@+id/txtIncome" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Total Income: ₹0.00" android:textSize="18sp" android:padding="8dp"/>
+<TextView android:id="@+id/txtExpense" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Total Expenditure: ₹0.00" android:textSize="18sp" android:padding="8dp"/>
+<TextView android:id="@+id/txtBalance" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Net Profit / (Loss): ₹0.00" android:textSize="20sp" android:textStyle="bold" android:padding="8dp"/>
+<com.google.android.material.button.MaterialButton android:id="@+id/btnProfessionalLedger" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Professional Ledger"/>
+<com.google.android.material.button.MaterialButton android:id="@+id/btnAddIncome" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Add Income"/>
+<com.google.android.material.button.MaterialButton android:id="@+id/btnAddExpense" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Add Expenditure"/>
+<com.google.android.material.button.MaterialButton android:id="@+id/btnDateReport" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Custom Date Report"/>
+<com.google.android.material.button.MaterialButton android:id="@+id/btnSearch" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Search / Filter"/>
+<com.google.android.material.button.MaterialButton android:id="@+id/btnDashboard" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Dashboard / Charts"/>
+<com.google.android.material.button.MaterialButton android:id="@+id/btnLedger" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ledger / Account Statement"/>
+<com.google.android.material.button.MaterialButton android:id="@+id/btnSummary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Financial Summary"/>
+<com.google.android.material.button.MaterialButton android:id="@+id/btnBackup" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Backup (JSON)"/>
+<com.google.android.material.button.MaterialButton android:id="@+id/btnRestore" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Restore Backup"/>
+<com.google.android.material.button.MaterialButton android:id="@+id/btnCsv" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Export CSV"/>
+<com.google.android.material.button.MaterialButton android:id="@+id/btnPdf" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="PDF Report"/>
+<com.google.android.material.button.MaterialButton android:id="@+id/btnMasters" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Accounts / Categories Master"/>
+<com.google.android.material.button.MaterialButton android:id="@+id/btnSettings" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Settings"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Recent Entries (tap to edit/delete)" android:textStyle="bold" android:textSize="18sp" android:padding="10dp"/>
+<LinearLayout android:id="@+id/entryList" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"/>
+</LinearLayout></ScrollView>

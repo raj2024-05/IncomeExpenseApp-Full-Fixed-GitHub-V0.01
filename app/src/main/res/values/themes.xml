@@ -1,0 +1,1 @@
+<resources><style name="Theme.IncomeExpense" parent="Theme.Material3.DayNight.NoActionBar"><item name="colorPrimary">@color/primary</item><item name="colorSecondary">@color/secondary</item></style></resources>
